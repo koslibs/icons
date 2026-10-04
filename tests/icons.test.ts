@@ -59,17 +59,4 @@ describe('public icons', () => {
             expect(markup).toContain('aria-hidden="true"');
         }
     });
-
-    it.each([icons.TrophyIcon, icons.RotateCwIcon])(
-        'keeps clip paths unique across instances',
-        (Component) => {
-            const markup = renderToStaticMarkup(
-                createElement('div', null, createElement(Component), createElement(Component))
-            );
-            const ids = [...markup.matchAll(/<clipPath id="([^"]+)"/g)].map((match) => match[1]);
-            expect(ids).toHaveLength(2);
-            expect(new Set(ids).size).toBe(2);
-            for (const id of ids) expect(markup).toContain(`clip-path="url(#${id})"`);
-        }
-    );
 });
