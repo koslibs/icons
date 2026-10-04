@@ -1,0 +1,9 @@
+{
+    "extends": "@koslibs/configs/tsconfig",
+    "compilerOptions": {
+        "declaration": true,
+        "types": ["node", "@koslibs/builder/client"],
+        "verbatimModuleSyntax": true
+    },
+    "include": ["src", ".storybook", "koslibs-builder.ts", "rstest.config.ts"]
+}

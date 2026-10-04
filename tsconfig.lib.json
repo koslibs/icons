@@ -1,0 +1,6 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": { "rootDir": "./src" },
+    "include": ["src/index.ts", "src/icons/**/*-icon.tsx"],
+    "exclude": ["src/**/*.stories.tsx"]
+}

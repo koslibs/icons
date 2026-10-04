@@ -1,0 +1,167 @@
+{
+    "name": "@koslibs/icons",
+    "version": "0.1.0",
+    "description": "Shared React icons with a searchable Storybook catalog",
+    "type": "module",
+    "license": "MIT",
+    "author": "holypower777",
+    "sideEffects": false,
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+        },
+        "./icons/*": {
+            "types": "./dist/icons/*.d.ts",
+            "import": "./dist/icons/*.js"
+        },
+        "./package.json": "./package.json",
+        "./ChartIcon": {
+            "types": "./dist/icons/chart-icon.d.ts",
+            "import": "./dist/icons/chart-icon.js"
+        },
+        "./ChartLineIcon": {
+            "types": "./dist/icons/chart-line-icon.d.ts",
+            "import": "./dist/icons/chart-line-icon.js"
+        },
+        "./ChevronDownIcon": {
+            "types": "./dist/icons/chevron-down-icon.d.ts",
+            "import": "./dist/icons/chevron-down-icon.js"
+        },
+        "./CircleCoinIcon": {
+            "types": "./dist/icons/circle-coin-icon.d.ts",
+            "import": "./dist/icons/circle-coin-icon.js"
+        },
+        "./CloseCircleIcon": {
+            "types": "./dist/icons/close-circle-icon.d.ts",
+            "import": "./dist/icons/close-circle-icon.js"
+        },
+        "./CrossHeavyMIcon": {
+            "types": "./dist/icons/cross-heavy-m-icon.d.ts",
+            "import": "./dist/icons/cross-heavy-m-icon.js"
+        },
+        "./DangerTriangleIcon": {
+            "types": "./dist/icons/danger-triangle-icon.d.ts",
+            "import": "./dist/icons/danger-triangle-icon.js"
+        },
+        "./DatabaseIcon": {
+            "types": "./dist/icons/database-icon.d.ts",
+            "import": "./dist/icons/database-icon.js"
+        },
+        "./FlyingSeagullsIcon": {
+            "types": "./dist/icons/flying-seagulls-icon.d.ts",
+            "import": "./dist/icons/flying-seagulls-icon.js"
+        },
+        "./GridIcon": {
+            "types": "./dist/icons/grid-icon.d.ts",
+            "import": "./dist/icons/grid-icon.js"
+        },
+        "./HierarchyIcon": {
+            "types": "./dist/icons/hierarchy-icon.d.ts",
+            "import": "./dist/icons/hierarchy-icon.js"
+        },
+        "./LayersIcon": {
+            "types": "./dist/icons/layers-icon.d.ts",
+            "import": "./dist/icons/layers-icon.js"
+        },
+        "./ProfileColorIcon": {
+            "types": "./dist/icons/profile-color-icon.d.ts",
+            "import": "./dist/icons/profile-color-icon.js"
+        },
+        "./SeagullIcon": {
+            "types": "./dist/icons/seagull-icon.d.ts",
+            "import": "./dist/icons/seagull-icon.js"
+        },
+        "./TargetIcon": {
+            "types": "./dist/icons/target-icon.d.ts",
+            "import": "./dist/icons/target-icon.js"
+        },
+        "./ThreeCardsIcon": {
+            "types": "./dist/icons/three-cards-icon.d.ts",
+            "import": "./dist/icons/three-cards-icon.js"
+        },
+        "./TickCircleIcon": {
+            "types": "./dist/icons/tick-circle-icon.d.ts",
+            "import": "./dist/icons/tick-circle-icon.js"
+        },
+        "./TrophyIcon": {
+            "types": "./dist/icons/trophy-icon.d.ts",
+            "import": "./dist/icons/trophy-icon.js"
+        },
+        "./UploadIcon": {
+            "types": "./dist/icons/upload-icon.d.ts",
+            "import": "./dist/icons/upload-icon.js"
+        },
+        "./UploadTrayIcon": {
+            "types": "./dist/icons/upload-tray-icon.d.ts",
+            "import": "./dist/icons/upload-tray-icon.js"
+        },
+        "./UsersIcon": {
+            "types": "./dist/icons/users-icon.d.ts",
+            "import": "./dist/icons/users-icon.js"
+        }
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "engines": {
+        "node": ">=24.13.0"
+    },
+    "peerDependencies": {
+        "react": "^18.3.1 || ^19.0.0"
+    },
+    "devDependencies": {
+        "@koslibs/builder": "0.1.0",
+        "@koslibs/configs": "0.2.12",
+        "@types/node": "^24.0.0",
+        "@types/react": "^19.0.0",
+        "@types/react-dom": "^19.0.0",
+        "react": "19.2.0",
+        "react-dom": "19.2.0"
+    },
+    "scripts": {
+        "build": "koslibs-builder lib:build",
+        "typecheck": "koslibs-builder lib:typecheck",
+        "pretest": "npm run build",
+        "test": "koslibs-builder lib:test",
+        "posttest": "koslibs-builder lib:typecheck --root ./tests",
+        "storybook": "koslibs-builder storybook:start",
+        "build-storybook": "koslibs-builder storybook:build",
+        "lint": "koslibs-lint lint",
+        "lint:fix": "koslibs-lint lint:fix",
+        "format": "koslibs-lint format",
+        "format:check": "koslibs-lint format:check",
+        "prepack": "npm run build",
+        "changeset": "koslibs-release add",
+        "changeset:check": "koslibs-release check",
+        "version-package": "koslibs-release version",
+        "release": "koslibs-release publish",
+        "prepare": "koslibs-release hooks:install"
+    },
+    "prettier": "@koslibs/configs/prettier",
+    "commitlint": {
+        "extends": "./node_modules/@koslibs/configs/commitlint"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/koslibs/icons.git"
+    },
+    "homepage": "https://koslibs.github.io/icons/",
+    "bugs": {
+        "url": "https://github.com/koslibs/icons/issues"
+    },
+    "keywords": [
+        "react",
+        "icons",
+        "svg",
+        "storybook",
+        "koslibs"
+    ]
+}
