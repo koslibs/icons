@@ -11,6 +11,7 @@ export { GridIcon } from './icons/grid-icon.js';
 export { HierarchyIcon } from './icons/hierarchy-icon.js';
 export { LayersIcon } from './icons/layers-icon.js';
 export { ProfileColorIcon } from './icons/profile-color-icon.js';
+export { RotateCwIcon } from './icons/rotate-cw-icon.js';
 export { SeagullIcon } from './icons/seagull-icon.js';
 export { TargetIcon } from './icons/target-icon.js';
 export { ThreeCardsIcon } from './icons/three-cards-icon.js';

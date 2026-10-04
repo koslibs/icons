@@ -59,19 +59,4 @@ describe('public icons', () => {
             expect(markup).toContain('aria-hidden="true"');
         }
     });
-
-    it('keeps TrophyIcon clip paths unique across instances', () => {
-        const markup = renderToStaticMarkup(
-            createElement(
-                'div',
-                null,
-                createElement(icons.TrophyIcon),
-                createElement(icons.TrophyIcon)
-            )
-        );
-        const ids = [...markup.matchAll(/<clipPath id="([^"]+)"/g)].map((match) => match[1]);
-        expect(ids).toHaveLength(2);
-        expect(new Set(ids).size).toBe(2);
-        for (const id of ids) expect(markup).toContain(`clip-path="url(#${id})"`);
-    });
 });

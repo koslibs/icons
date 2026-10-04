@@ -70,6 +70,10 @@
             "types": "./dist/icons/profile-color-icon.d.ts",
             "import": "./dist/icons/profile-color-icon.js"
         },
+        "./RotateCwIcon": {
+            "types": "./dist/icons/rotate-cw-icon.d.ts",
+            "import": "./dist/icons/rotate-cw-icon.js"
+        },
         "./SeagullIcon": {
             "types": "./dist/icons/seagull-icon.d.ts",
             "import": "./dist/icons/seagull-icon.js"
