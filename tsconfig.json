@@ -2,6 +2,7 @@
     "extends": "@koslibs/configs/tsconfig",
     "compilerOptions": {
         "declaration": true,
+        "esModuleInterop": true,
         "types": ["node", "@koslibs/builder/client"],
         "verbatimModuleSyntax": true
     },

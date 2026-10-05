@@ -42,6 +42,7 @@ it('resolves each public subpath and bundles one icon without tree shaking', asy
             join(fixture, 'tsconfig.json'),
             JSON.stringify({
                 extends: '@koslibs/configs/tsconfig',
+                compilerOptions: { esModuleInterop: true },
                 include: ['consumer.ts'],
             })
         );
