@@ -1,5 +1,11 @@
 # @koslibs/icons
 
+## 1.0.1
+
+### Patch Changes
+
+- [#3](https://github.com/koslibs/icons/pull/3) [`8be1648`](https://github.com/koslibs/icons/commit/8be1648a70190140f61114572e295e21a7f4db9f) Thanks [@holypower777](https://github.com/holypower777)! - Update shared build, lint, and release tooling to @koslibs/builder 1.0.0 and @koslibs/configs 1.0.0, refresh the lockfile to remove known dependency vulnerabilities, update the shared GitHub workflows, and enable TypeScript 6 compatibility.
+
 ## 1.0.0
 
 ### Major Changes
