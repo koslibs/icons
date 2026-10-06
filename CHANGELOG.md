@@ -1,5 +1,11 @@
 # @koslibs/icons
 
+## 1.1.0
+
+### Minor Changes
+
+- [#4](https://github.com/koslibs/icons/pull/4) [`6247f2b`](https://github.com/koslibs/icons/commit/6247f2b2b4fcc0188fb4efd82f0811b8f2e5cd60) Thanks [@holypower777](https://github.com/holypower777)! - Sync the icon collection with Figma: use an 18 x 18 default canvas and viewBox, normalize line icons to a 1 px stroke at that size, and add CogIcon, TickIcon, PlusIcon, ChevronRightIcon, and CrossIcon with direct imports. Preserve the larger inner drawings of the new action icons, currentColor support, and standard SVG props without redundant clipping or runtime IDs.
+
 ## 1.0.1
 
 ### Patch Changes
