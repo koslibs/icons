@@ -4,26 +4,27 @@ export const CloseCircleIcon = (props: SVGProps<SVGSVGElement>) => (
     <svg
         role="img"
         focusable="false"
-        width="10"
-        height="10"
-        viewBox="0 0 10 10"
+        width="18"
+        height="18"
+        viewBox="0 0 18 18"
         fill="none"
+        strokeWidth="1"
         {...props}
     >
         <path
-            d="M4.99998 9.16671C7.29165 9.16671 9.16665 7.29171 9.16665 5.00004C9.16665 2.70837 7.29165 0.833374 4.99998 0.833374C2.70831 0.833374 0.833313 2.70837 0.833313 5.00004C0.833313 7.29171 2.70831 9.16671 4.99998 9.16671Z"
+            d="M9 16.5C13.125 16.5 16.5 13.125 16.5 9C16.5 4.87499 13.125 1.5 9 1.5C4.87499 1.5 1.5 4.87499 1.5 9C1.5 13.125 4.87499 16.5 9 16.5Z"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
         />
         <path
-            d="M3.8208 6.17913L6.17913 3.8208"
+            d="M6.87744 11.1219L11.1224 6.87695"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
         />
         <path
-            d="M6.17913 6.17913L3.8208 3.8208"
+            d="M11.1224 11.1219L6.87744 6.87695"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"

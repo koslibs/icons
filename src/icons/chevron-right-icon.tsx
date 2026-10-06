@@ -1,6 +1,6 @@
 import { type SVGProps } from 'react';
 
-export const ChevronDownIcon = (props: SVGProps<SVGSVGElement>) => (
+export const ChevronRightIcon = (props: SVGProps<SVGSVGElement>) => (
     <svg
         role="img"
         focusable="false"
@@ -11,8 +11,8 @@ export const ChevronDownIcon = (props: SVGProps<SVGSVGElement>) => (
         strokeWidth="1"
         {...props}
     >
-        <path d="M4.5 6.75L9 11.25L13.5 6.75" stroke="currentColor" strokeLinecap="round" />
+        <path d="M5.625 2.25L12.375 9L5.625 15.75" stroke="currentColor" strokeLinecap="round" />
     </svg>
 );
 
-export default ChevronDownIcon;
+export default ChevronRightIcon;

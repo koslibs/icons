@@ -4,26 +4,27 @@ export const UploadIcon = (props: SVGProps<SVGSVGElement>) => (
     <svg
         role="img"
         focusable="false"
-        width="12"
-        height="12"
-        viewBox="0 0 12 12"
+        width="18"
+        height="18"
+        viewBox="0 0 18 18"
         fill="none"
+        strokeWidth="1"
         {...props}
     >
         <path
-            d="M8.2194 4.44989C10.0194 4.60489 10.7544 5.52989 10.7544 7.55489V7.61989C10.7544 9.85489 9.8594 10.7499 7.6244 10.7499H4.3694C2.1344 10.7499 1.2394 9.85489 1.2394 7.61989V7.55489C1.2394 5.54489 1.9644 4.61989 3.7344 4.45489"
+            d="M12.3291 6.6748C15.0291 6.9073 16.1316 8.2948 16.1316 11.3323V11.4298C16.1316 14.7823 14.7891 16.1248 11.4366 16.1248H6.55413C3.20163 16.1248 1.85913 14.7823 1.85913 11.4298V11.3323C1.85913 8.3173 2.94663 6.9298 5.60163 6.6823"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
         />
         <path
-            d="M6 7.49993V1.80993"
+            d="M9 11.2498V2.71484"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
         />
         <path
-            d="M7.67515 2.92474L6.00015 1.24974L4.32515 2.92474"
+            d="M11.5127 4.3875L9.00017 1.875L6.48767 4.3875"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"

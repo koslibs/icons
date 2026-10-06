@@ -4,20 +4,21 @@ export const TickCircleIcon = (props: SVGProps<SVGSVGElement>) => (
     <svg
         role="img"
         focusable="false"
-        width="10"
-        height="10"
-        viewBox="0 0 10 10"
+        width="18"
+        height="18"
+        viewBox="0 0 18 18"
         fill="none"
+        strokeWidth="1"
         {...props}
     >
         <path
-            d="M5.00004 9.16671C7.29171 9.16671 9.16671 7.29171 9.16671 5.00004C9.16671 2.70837 7.29171 0.833374 5.00004 0.833374C2.70837 0.833374 0.833374 2.70837 0.833374 5.00004C0.833374 7.29171 2.70837 9.16671 5.00004 9.16671Z"
+            d="M9 16.5C13.125 16.5 16.5 13.125 16.5 9C16.5 4.87499 13.125 1.5 9 1.5C4.87499 1.5 1.5 4.87499 1.5 9C1.5 13.125 4.87499 16.5 9 16.5Z"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
         />
         <path
-            d="M3.22913 4.99997L4.40829 6.17913L6.77079 3.8208"
+            d="M5.8125 8.99946L7.93499 11.1219L12.1875 6.87695"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"

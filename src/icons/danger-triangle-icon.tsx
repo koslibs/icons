@@ -4,23 +4,23 @@ export const DangerTriangleIcon = (props: SVGProps<SVGSVGElement>) => (
     <svg
         role="img"
         focusable="false"
-        width="12"
-        height="12"
-        viewBox="0 0 12 12"
+        width="18"
+        height="18"
+        viewBox="0 0 18 18"
         fill="none"
+        strokeWidth="1"
         {...props}
     >
-        <path d="M6 4.5V7" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M9 6.75V10.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
         <path
-            d="M6 10.705H2.97C1.235 10.705 0.509999 9.465 1.35 7.95L2.91 5.14L4.38 2.5C5.27 0.894999 6.73 0.894999 7.62 2.5L9.09 5.145L10.65 7.955C11.49 9.47 10.76 10.71 9.03 10.71H6V10.705Z"
+            d="M8.99995 16.0575H4.45495C1.85245 16.0575 0.764949 14.1975 2.02495 11.925L4.36495 7.70996L6.56995 3.74996C7.90495 1.34246 10.0949 1.34246 11.4299 3.74996L13.635 7.71746L15.9749 11.9325C17.2349 14.205 16.1399 16.065 13.5449 16.065H8.99995V16.0575Z"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
         />
         <path
-            d="M5.99725 8.5H6.00174"
+            d="M8.99585 12.75H9.00258"
             stroke="currentColor"
-            strokeWidth="1.5"
             strokeLinecap="round"
             strokeLinejoin="round"
         />
