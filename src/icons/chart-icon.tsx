@@ -4,33 +4,34 @@ export const ChartIcon = (props: SVGProps<SVGSVGElement>) => (
     <svg
         role="img"
         focusable="false"
-        width="12"
-        height="12"
-        viewBox="0 0 12 12"
+        width="18"
+        height="18"
+        viewBox="0 0 18 18"
         fill="none"
+        strokeWidth="1"
         {...props}
     >
         <path
-            d="M0.999985 11H11"
+            d="M1.5 16.5H16.5"
             stroke="currentColor"
             strokeMiterlimit="10"
             strokeLinecap="round"
             strokeLinejoin="round"
         />
         <path
-            d="M4.875 2V11H7.125V2C7.125 1.45 6.9 0.999996 6.225 0.999996H5.775C5.1 0.999996 4.875 1.45 4.875 2Z"
+            d="M7.3125 3.00001V16.5H10.6875V3.00001C10.6875 2.17501 10.35 1.5 9.3375 1.5H8.6625C7.65 1.5 7.3125 2.17501 7.3125 3.00001Z"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
         />
         <path
-            d="M1.5 5V11H3.5V5C3.5 4.45 3.3 4 2.7 4H2.3C1.7 4 1.5 4.45 1.5 5Z"
+            d="M2.25 7.5V16.5H5.25V7.5C5.25 6.675 4.95 6 4.05 6H3.45C2.55 6 2.25 6.675 2.25 7.5Z"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
         />
         <path
-            d="M8.49998 7.5V11H10.5V7.5C10.5 6.95 10.3 6.5 9.69998 6.5H9.29998C8.69998 6.5 8.49998 6.95 8.49998 7.5Z"
+            d="M12.75 11.25V16.5H15.75V11.25C15.75 10.425 15.45 9.75 14.55 9.75H13.95C13.05 9.75 12.75 10.425 12.75 11.25Z"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"

@@ -1,24 +1,22 @@
 import { type SVGProps } from 'react';
 
-export const RotateCwIcon = (props: SVGProps<SVGSVGElement>) => {
-    return (
-        <svg
-            role="img"
-            focusable="false"
-            width="12"
-            height="12"
-            viewBox="0 0 12 12"
-            fill="none"
-            {...props}
-        >
-            <path
-                d="M10.5 6C10.5 6.89002 10.2361 7.76004 9.74162 8.50007C9.24715 9.24009 8.54434 9.81686 7.72208 10.1575C6.89981 10.4981 5.99501 10.5872 5.1221 10.4135C4.24918 10.2399 3.44736 9.81132 2.81802 9.18198C2.18869 8.55264 1.7601 7.75082 1.58647 6.87791C1.41283 6.00499 1.50195 5.10019 1.84254 4.27792C2.18314 3.45566 2.75991 2.75285 3.49994 2.25839C4.23996 1.76392 5.10999 1.5 6 1.5C7.26 1.5 8.465 2 9.37 2.87L10.5 4M8 4H10.5L10.5 1.5"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-            />
-        </svg>
-    );
-};
+export const RotateCwIcon = (props: SVGProps<SVGSVGElement>) => (
+    <svg
+        role="img"
+        focusable="false"
+        width="18"
+        height="18"
+        viewBox="0 0 18 18"
+        fill="none"
+        strokeWidth="1"
+        {...props}
+    >
+        <path
+            d="M15.75 9C15.75 10.335 15.3542 11.6401 14.6124 12.7501C13.8707 13.8601 12.8165 14.7253 11.5831 15.2363C10.3497 15.7472 8.99252 15.8808 7.68315 15.6202C6.37377 15.3598 5.17104 14.717 4.22703 13.773C3.28304 12.829 2.64015 11.6262 2.37971 10.3169C2.11925 9.00749 2.25293 7.65028 2.76381 6.41688C3.27471 5.18349 4.13987 4.12927 5.24991 3.38758C6.35994 2.64588 7.66499 2.25 9 2.25C10.89 2.25 12.6975 3 14.055 4.305L15.75 6M15.75 2.25V6H12"
+            stroke="currentColor"
+            strokeLinecap="round"
+        />
+    </svg>
+);
 
 export default RotateCwIcon;
