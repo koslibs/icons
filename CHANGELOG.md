@@ -1,5 +1,11 @@
 # @koslibs/icons
 
+## 1.2.0
+
+### Minor Changes
+
+- [#5](https://github.com/koslibs/icons/pull/5) [`59789df`](https://github.com/koslibs/icons/commit/59789df7ae62995a0a86c648e9c4e27c6f91e76e) Thanks [@holypower777](https://github.com/holypower777)! - Add SearchIcon, DotsIcon, ArchiveIcon, and PenIcon from the Figma library. Each icon uses an 18×18 canvas and a 1 px stroke, supports standard SVG props, and is available through an individual package import.
+
 ## 1.1.0
 
 ### Minor Changes
