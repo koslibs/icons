@@ -18,6 +18,10 @@
             "import": "./dist/icons/*.js"
         },
         "./package.json": "./package.json",
+        "./ArchiveIcon": {
+            "types": "./dist/icons/archive-icon.d.ts",
+            "import": "./dist/icons/archive-icon.js"
+        },
         "./ChartIcon": {
             "types": "./dist/icons/chart-icon.d.ts",
             "import": "./dist/icons/chart-icon.js"
@@ -62,6 +66,10 @@
             "types": "./dist/icons/database-icon.d.ts",
             "import": "./dist/icons/database-icon.js"
         },
+        "./DotsIcon": {
+            "types": "./dist/icons/dots-icon.d.ts",
+            "import": "./dist/icons/dots-icon.js"
+        },
         "./FlyingSeagullsIcon": {
             "types": "./dist/icons/flying-seagulls-icon.d.ts",
             "import": "./dist/icons/flying-seagulls-icon.js"
@@ -78,6 +86,10 @@
             "types": "./dist/icons/layers-icon.d.ts",
             "import": "./dist/icons/layers-icon.js"
         },
+        "./PenIcon": {
+            "types": "./dist/icons/pen-icon.d.ts",
+            "import": "./dist/icons/pen-icon.js"
+        },
         "./PlusIcon": {
             "types": "./dist/icons/plus-icon.d.ts",
             "import": "./dist/icons/plus-icon.js"
@@ -93,6 +105,10 @@
         "./SeagullIcon": {
             "types": "./dist/icons/seagull-icon.d.ts",
             "import": "./dist/icons/seagull-icon.js"
+        },
+        "./SearchIcon": {
+            "types": "./dist/icons/search-icon.d.ts",
+            "import": "./dist/icons/search-icon.js"
         },
         "./TargetIcon": {
             "types": "./dist/icons/target-icon.d.ts",
