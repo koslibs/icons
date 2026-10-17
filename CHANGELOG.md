@@ -1,5 +1,11 @@
 # @koslibs/icons
 
+## 1.2.1
+
+### Patch Changes
+
+- [#6](https://github.com/koslibs/icons/pull/6) [`e1bf1b3`](https://github.com/koslibs/icons/commit/e1bf1b37384e765f052cc8af1f980957073a67ef) Thanks [@holypower777](https://github.com/holypower777)! - Use @koslibs/builder 2 and @koslibs/configs 2 for development, builds and validation, and pin reusable Changeset and release workflows to configs v2.0.0.
+
 ## 1.2.0
 
 ### Minor Changes
