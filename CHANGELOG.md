@@ -1,5 +1,11 @@
 # @koslibs/icons
 
+## 1.2.2
+
+### Patch Changes
+
+- [#7](https://github.com/koslibs/icons/pull/7) [`b6ae188`](https://github.com/koslibs/icons/commit/b6ae188b861edc925d5507b14bf1debe9ed32d0c) Thanks [@holypower777](https://github.com/holypower777)! - Use @koslibs/builder 3 and @koslibs/configs 3 for development, builds and validation, and pin reusable Changeset and release workflows to configs v3.0.0. Refresh the dependency lockfile to remove vulnerable versions of Storybook, Vite, Happy DOM and fast-uri.
+
 ## 1.2.1
 
 ### Patch Changes
