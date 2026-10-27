@@ -1,5 +1,11 @@
 # @koslibs/icons
 
+## 1.3.0
+
+### Minor Changes
+
+- [#8](https://github.com/koslibs/icons/pull/8) [`923fabe`](https://github.com/koslibs/icons/commit/923fabe82aa6e0f2a9fe6cbe019c458f642e6a39) Thanks [@holypower777](https://github.com/holypower777)! - Add CalendarIcon and ChevronLeftIcon from Figma with an 18×18 canvas, a 1 px stroke, standard SVG props and individual package imports.
+
 ## 1.2.2
 
 ### Patch Changes
