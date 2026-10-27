@@ -22,6 +22,10 @@
             "types": "./dist/icons/archive-icon.d.ts",
             "import": "./dist/icons/archive-icon.js"
         },
+        "./CalendarIcon": {
+            "types": "./dist/icons/calendar-icon.d.ts",
+            "import": "./dist/icons/calendar-icon.js"
+        },
         "./ChartIcon": {
             "types": "./dist/icons/chart-icon.d.ts",
             "import": "./dist/icons/chart-icon.js"
@@ -33,6 +37,10 @@
         "./ChevronDownIcon": {
             "types": "./dist/icons/chevron-down-icon.d.ts",
             "import": "./dist/icons/chevron-down-icon.js"
+        },
+        "./ChevronLeftIcon": {
+            "types": "./dist/icons/chevron-left-icon.d.ts",
+            "import": "./dist/icons/chevron-left-icon.js"
         },
         "./ChevronRightIcon": {
             "types": "./dist/icons/chevron-right-icon.d.ts",

@@ -1,7 +1,9 @@
 export { ArchiveIcon } from './icons/archive-icon.js';
+export { CalendarIcon } from './icons/calendar-icon.js';
 export { ChartIcon } from './icons/chart-icon.js';
 export { ChartLineIcon } from './icons/chart-line-icon.js';
 export { ChevronDownIcon } from './icons/chevron-down-icon.js';
+export { ChevronLeftIcon } from './icons/chevron-left-icon.js';
 export { ChevronRightIcon } from './icons/chevron-right-icon.js';
 export { CircleCoinIcon } from './icons/circle-coin-icon.js';
 export { CloseCircleIcon } from './icons/close-circle-icon.js';
