@@ -1,4 +1,5 @@
 export { ArchiveIcon } from './icons/archive-icon.js';
+export { ArrowRightIcon } from './icons/arrow-right-icon.js';
 export { CalendarIcon } from './icons/calendar-icon.js';
 export { ChartIcon } from './icons/chart-icon.js';
 export { ChartLineIcon } from './icons/chart-line-icon.js';
@@ -18,6 +19,7 @@ export { GridIcon } from './icons/grid-icon.js';
 export { HierarchyIcon } from './icons/hierarchy-icon.js';
 export { LayersIcon } from './icons/layers-icon.js';
 export { PenIcon } from './icons/pen-icon.js';
+export { PlayIcon } from './icons/play-icon.js';
 export { PlusIcon } from './icons/plus-icon.js';
 export { ProfileColorIcon } from './icons/profile-color-icon.js';
 export { RotateCwIcon } from './icons/rotate-cw-icon.js';

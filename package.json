@@ -22,6 +22,10 @@
             "types": "./dist/icons/archive-icon.d.ts",
             "import": "./dist/icons/archive-icon.js"
         },
+        "./ArrowRightIcon": {
+            "types": "./dist/icons/arrow-right-icon.d.ts",
+            "import": "./dist/icons/arrow-right-icon.js"
+        },
         "./CalendarIcon": {
             "types": "./dist/icons/calendar-icon.d.ts",
             "import": "./dist/icons/calendar-icon.js"
@@ -97,6 +101,10 @@
         "./PenIcon": {
             "types": "./dist/icons/pen-icon.d.ts",
             "import": "./dist/icons/pen-icon.js"
+        },
+        "./PlayIcon": {
+            "types": "./dist/icons/play-icon.d.ts",
+            "import": "./dist/icons/play-icon.js"
         },
         "./PlusIcon": {
             "types": "./dist/icons/plus-icon.d.ts",
