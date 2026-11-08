@@ -1,5 +1,11 @@
 # @koslibs/icons
 
+## 1.4.0
+
+### Minor Changes
+
+- [#9](https://github.com/koslibs/icons/pull/9) [`9eb49cd`](https://github.com/koslibs/icons/commit/9eb49cd9565edd35de547b80409e9553e43876dd) Thanks [@holypower777](https://github.com/holypower777)! - Add ArrowRightIcon and PlayIcon from Figma with 18×18 geometry, standard SVG props, and individual package imports.
+
 ## 1.3.0
 
 ### Minor Changes
