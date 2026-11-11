@@ -38,6 +38,14 @@
             "types": "./dist/icons/chart-line-icon.d.ts",
             "import": "./dist/icons/chart-line-icon.js"
         },
+        "./ChevronDoubleLeftIcon": {
+            "types": "./dist/icons/chevron-double-left-icon.d.ts",
+            "import": "./dist/icons/chevron-double-left-icon.js"
+        },
+        "./ChevronDoubleRightIcon": {
+            "types": "./dist/icons/chevron-double-right-icon.d.ts",
+            "import": "./dist/icons/chevron-double-right-icon.js"
+        },
         "./ChevronDownIcon": {
             "types": "./dist/icons/chevron-down-icon.d.ts",
             "import": "./dist/icons/chevron-down-icon.js"
@@ -57,6 +65,10 @@
         "./CloseCircleIcon": {
             "types": "./dist/icons/close-circle-icon.d.ts",
             "import": "./dist/icons/close-circle-icon.js"
+        },
+        "./ClubsIcon": {
+            "types": "./dist/icons/clubs-icon.d.ts",
+            "import": "./dist/icons/clubs-icon.js"
         },
         "./CogIcon": {
             "types": "./dist/icons/cog-icon.d.ts",
@@ -78,6 +90,10 @@
             "types": "./dist/icons/database-icon.d.ts",
             "import": "./dist/icons/database-icon.js"
         },
+        "./DiamondsIcon": {
+            "types": "./dist/icons/diamonds-icon.d.ts",
+            "import": "./dist/icons/diamonds-icon.js"
+        },
         "./DotsIcon": {
             "types": "./dist/icons/dots-icon.d.ts",
             "import": "./dist/icons/dots-icon.js"
@@ -89,6 +105,10 @@
         "./GridIcon": {
             "types": "./dist/icons/grid-icon.d.ts",
             "import": "./dist/icons/grid-icon.js"
+        },
+        "./HeartsIcon": {
+            "types": "./dist/icons/hearts-icon.d.ts",
+            "import": "./dist/icons/hearts-icon.js"
         },
         "./HierarchyIcon": {
             "types": "./dist/icons/hierarchy-icon.d.ts",
@@ -125,6 +145,10 @@
         "./SearchIcon": {
             "types": "./dist/icons/search-icon.d.ts",
             "import": "./dist/icons/search-icon.js"
+        },
+        "./SpadesIcon": {
+            "types": "./dist/icons/spades-icon.d.ts",
+            "import": "./dist/icons/spades-icon.js"
         },
         "./TargetIcon": {
             "types": "./dist/icons/target-icon.d.ts",
