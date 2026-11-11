@@ -1,5 +1,11 @@
 # @koslibs/icons
 
+## 1.5.0
+
+### Minor Changes
+
+- [#10](https://github.com/koslibs/icons/pull/10) [`d483089`](https://github.com/koslibs/icons/commit/d483089b047e08b133968edf1096cbfd8b283ec4) Thanks [@holypower777](https://github.com/holypower777)! - Add ChevronDoubleLeftIcon, ChevronDoubleRightIcon, ClubsIcon, DiamondsIcon, HeartsIcon and SpadesIcon from the Replayer design. All six icons use the documented 18×18 canvas, currentColor, standard SVG props and individual package imports.
+
 ## 1.4.0
 
 ### Minor Changes
